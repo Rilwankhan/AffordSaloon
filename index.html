@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Afford Salon – Premium Grooming, Trichy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- FLOAT WA -->
+<a href="https://wa.me/918608865811" target="_blank" class="wa-btn" aria-label="WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- MOBILE NAV -->
+<div class="mob-nav" id="mobNav">
+  <span class="mob-close" id="mobClose"><i class="fas fa-times"></i></span>
+  <a href="#home" onclick="closeMob()">Home</a>
+  <a href="#services" onclick="closeMob()">Services</a>
+  <a href="#packages" onclick="closeMob()">Packages</a>
+  <a href="#about" onclick="closeMob()">About</a>
+  <a href="#gallery" onclick="closeMob()">Gallery</a>
+  <a href="#contact" onclick="closeMob()">Contact</a>
+  <a href="#booking" onclick="closeMob()" class="btn btn-gold" style="font-size:1rem;margin-top:6px">Book Now</a>
+</div>
+
+<!-- NAVBAR -->
+<nav id="nav">
+  <div class="container nav-wrap">
+    <div class="logo">Afford<em> Salon</em></div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#packages">Packages</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#booking" class="btn btn-gold" style="padding:10px 20px;font-size:14px">Book Now</a>
+    </div>
+    <div class="hbg" id="hbg"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div id="hero">
+  <div class="hero-main">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <div class="hero-pill rv"><i class="fas fa-crown"></i>&nbsp; Premium Grooming Studio — Trichy</div>
+          <h1 class="hero-title rv d1">Experience<br/><em>Premium</em><br/>Grooming</h1>
+          <p class="hero-sub rv d2">Style. Confidence. Perfection.</p>
+          <div class="hero-btns rv d3">
+            <a href="https://wa.me/918608865811?text=Hello%2C%20I%20want%20to%20book%20an%20appointment%20at%20Afford%20Salon." target="_blank" class="btn btn-gold">
+              <i class="fab fa-whatsapp"></i> Book on WhatsApp
+            </a>
+            <a href="#packages" class="btn btn-outline"><i class="fas fa-gem"></i> View Packages</a>
+          </div>
+        </div>
+        <div class="hero-imgs rv d2">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=85&auto=format&fit=crop" alt="Premium barber haircut" class="hero-img-main"/>
+          <div class="hero-img-row">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&q=80&auto=format&fit=crop" alt="Beard grooming"/>
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&q=80&auto=format&fit=crop" alt="Hair styling"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="container">
+      <div class="stats-row">
+        <div class="stat-item rv"><div class="stat-num">500+</div><div class="stat-lbl">Happy Clients</div></div>
+        <div class="stat-item rv d1"><div class="stat-num">5+</div><div class="stat-lbl">Years Experience</div></div>
+        <div class="stat-item rv d2"><div class="stat-num">10+</div><div class="stat-lbl">Expert Stylists</div></div>
+        <div class="stat-item rv d3"><div class="stat-num">4.9★</div><div class="stat-lbl">Customer Rating</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag rv">Our Services</span>
+      <h2 class="sec-title rv d1">What We Offer</h2>
+      <div class="divider c rv d1"></div>
+      <p class="sec-sub rv d2">From precision cuts to relaxing spa treatments — everything you need to look and feel your best.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card rv">
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=700&q=80&auto=format&fit=crop" alt="Haircut" class="svc-img"/>
+        <div class="svc-ov"><div class="svc-icon"><i class="fas fa-cut"></i></div><h3>Haircut</h3><p>Precision cuts tailored to your face shape and style by our expert barbers.</p></div>
+        <div class="svc-bar"></div>
+      </div>
+      <div class="svc-card rv d1">
+        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=700&q=80&auto=format&fit=crop" alt="Beard Styling" class="svc-img"/>
+        <div class="svc-ov"><div class="svc-icon"><i class="fas fa-user-tie"></i></div><h3>Beard Styling</h3><p>Sharp lines, clean fades, and expert shaping for your perfect look.</p></div>
+        <div class="svc-bar"></div>
+      </div>
+      <div class="svc-card rv d2">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=700&q=80&auto=format&fit=crop" alt="Facial" class="svc-img"/>
+        <div class="svc-ov"><div class="svc-icon"><i class="fas fa-spa"></i></div><h3>Facial & Cleanup</h3><p>Deep cleansing facials and skin treatments for a fresh, glowing complexion.</p></div>
+        <div class="svc-bar"></div>
+      </div>
+      <div class="svc-card rv">
+        <img src="https://i.pinimg.com/1200x/38/f3/18/38f318aef30437250ffaabba1a6f3558.jpg" alt="Hair Spa" class="svc-img"/>
+        <div class="svc-ov"><div class="svc-icon"><i class="fas fa-water"></i></div><h3>Hair Spa</h3><p>Nourishing spa treatments that restore shine, strength, and vitality.</p></div>
+        <div class="svc-bar"></div>
+      </div>
+      <div class="svc-card rv d1">
+        <img src="https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?w=700&q=80&auto=format&fit=crop" alt="Grooming Package" class="svc-img"/>
+        <div class="svc-ov"><div class="svc-icon"><i class="fas fa-magic"></i></div><h3>Grooming Packages</h3><p>Complete combos at value prices — haircut, beard, facial and more.</p></div>
+        <div class="svc-bar"></div>
+      </div>
+      <div class="svc-card rv d2">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700&q=80&auto=format&fit=crop" alt="Hair Coloring" class="svc-img"/>
+        <div class="svc-ov"><div class="svc-icon"><i class="fas fa-paint-brush"></i></div><h3>Hair Coloring</h3><p>Vibrant long-lasting color using premium products for a bold new you.</p></div>
+        <div class="svc-bar"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section id="packages">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag rv">Pricing</span>
+      <h2 class="sec-title rv d1">Choose Your Package</h2>
+      <div class="divider c rv d1"></div>
+      <p class="sec-sub rv d2">Handcrafted packages designed to give you the best grooming value in Trichy.</p>
+    </div>
+    <div class="pkgs-grid">
+      <div class="pkg-card rv">
+        <div class="pkg-icon">💈</div>
+        <div class="pkg-name">Basic</div>
+        <div class="pkg-price"><sup>₹</sup>199</div>
+        <div class="pkg-hr"></div>
+        <ul class="pkg-feats">
+          <li><i class="fas fa-check-circle"></i>Haircut</li>
+          <li><i class="fas fa-check-circle"></i>Beard Trim</li>
+          <li><i class="fas fa-check-circle"></i>Face Wash</li>
+        </ul>
+        <button class="btn btn-outline pkg-btn" data-pkg="Basic Package – ₹199">Book Now</button>
+      </div>
+      <div class="pkg-card hot rv d1">
+        <div class="pop-tag" style="background:var(--gold); padding:5px 10px; border-radius:50px; font-size:14px; color: white;"><i class="fas fa-fire" style="margin-right:5px; color: white;"></i>Most Popular</div>
+        <div class="pkg-icon">💈</div>
+        <div class="pkg-name">Standard</div>
+        <div class="pkg-price"><sup>₹</sup>399</div>
+        <div class="pkg-hr"></div>
+        <ul class="pkg-feats">
+          <li><i class="fas fa-check-circle"></i>Haircut</li>
+          <li><i class="fas fa-check-circle"></i>Beard Styling</li>
+          <li><i class="fas fa-check-circle"></i>Facial</li>
+          <li><i class="fas fa-check-circle"></i>Face Wash</li>
+        </ul>
+        <button class="btn btn-gold pkg-btn" data-pkg="Standard Package – ₹399">Book Now</button>
+      </div>
+      <div class="pkg-card rv d2">
+        <div class="pkg-icon">👑</div>
+        <div class="pkg-name">Premium</div>
+        <div class="pkg-price"><sup>₹</sup>699</div>
+        <div class="pkg-hr"></div>
+        <ul class="pkg-feats">
+          <li><i class="fas fa-check-circle"></i>Haircut</li>
+          <li><i class="fas fa-check-circle"></i>Beard Styling</li>
+          <li><i class="fas fa-check-circle"></i>Facial</li>
+          <li><i class="fas fa-check-circle"></i>Hair Spa</li>
+          <li><i class="fas fa-check-circle"></i>Head Massage</li>
+        </ul>
+        <button class="btn btn-outline pkg-btn" data-pkg="Premium Package – ₹699">Book Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-imgs rv">
+        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=900&q=85&auto=format&fit=crop" alt="Afford Salon interior" class="ai1"/>
+        <img src="https://i.pinimg.com/1200x/6d/78/8e/6d788e2dc3674ef59b8a1db3352f0ce1.jpg" alt="Barber styling" class="ai2"/>
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=500&q=80&auto=format&fit=crop" alt="Salon tools" class="ai3"/>
+        <div class="about-badge"><strong>5+</strong><span>Years of Trust</span></div>
+      </div>
+      <div class="about-txt rv d2">
+        <span class="sec-tag">About Us</span>
+        <h2 class="sec-title">Where Style Meets <span style="color:var(--gold);font-style:italic">Precision</span></h2>
+        <div class="divider"></div>
+        <p class="sec-sub">Afford Salon is Trichy's premier grooming destination nestled in KK Nagar. We blend artistry with affordability — delivering luxury salon experiences without the luxury price tag.</p>
+        <p class="sec-sub" style="margin-top:12px">Located conveniently opposite LIC Colony on Metre Factory Road, our skilled team is passionate about making every visit truly exceptional.</p>
+        <div class="hi-grid">
+          <div class="hi-card"><div class="hi-icon"><i class="fas fa-award"></i></div><h4>Expert Stylists</h4><p>Trained & certified</p></div>
+          <div class="hi-card"><div class="hi-icon"><i class="fas fa-shield-alt"></i></div><h4>Hygiene First</h4><p>Sanitized every time</p></div>
+          <div class="hi-card"><div class="hi-icon"><i class="fas fa-gem"></i></div><h4>Premium Products</h4><p>Top-grade brands</p></div>
+          <div class="hi-card"><div class="hi-icon"><i class="fas fa-tag"></i></div><h4>Honest Pricing</h4><p>Luxury, fair prices</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BOOKING -->
+<section id="booking">
+  <div class="container">
+    <div class="bk-box rv">
+      <div class="bk-head">
+        <span class="sec-tag">Book Your Visit</span>
+        <h2 class="sec-title">Reserve Your Slot</h2>
+        <div class="divider c"></div>
+        <p style="color:var(--muted);font-size:.84rem">Fill in your details — we'll connect you instantly on WhatsApp.</p>
+      </div>
+      <div class="form-grid">
+        <div class="ff"><label>Full Name</label><input type="text" id="bkName" placeholder="Your name"/></div>
+        <div class="ff"><label>Phone Number</label><input type="tel" id="bkPhone" placeholder="+91 XXXXX XXXXX"/></div>
+        <div class="ff full"><label>Address / Locality</label><input type="text" id="bkAddr" placeholder="Your area, Trichy"/></div>
+        <div class="ff full">
+          <label>Select Package</label>
+          <select id="bkPkg">
+            <option value="">Choose a package…</option>
+            <option value="Basic Package – ₹199">Basic Package – ₹199 (Haircut + Beard Trim)</option>
+            <option value="Standard Package – ₹399">Standard Package – ₹399 (Haircut + Beard + Facial)</option>
+            <option value="Premium Package – ₹699">Premium Package – ₹699 (Full Grooming)</option>
+            <option value="Custom / Walk-in">Custom / Walk-in Service</option>
+          </select>
+        </div>
+        <div class="ff full"><label>Preferred Date &amp; Time (optional)</label><input type="text" id="bkTime" placeholder="e.g., Tomorrow at 4 PM"/></div>
+      </div>
+      <button class="btn btn-gold bk-sub" onclick="submitBk()"><i class="fab fa-whatsapp"></i>Confirm via WhatsApp</button>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag rv">Gallery</span>
+      <h2 class="sec-title rv d1">Our Work Speaks</h2>
+      <div class="divider c rv d1"></div>
+      <p class="sec-sub rv d2">A glimpse of the craft, care, and style that defines every visit to Afford Salon.</p>
+    </div>
+    <div class="g-grid">
+      <div class="g-item rv">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=900&q=85&auto=format&fit=crop" alt="Precision haircut"/>
+        <div class="g-ov"><span>Precision Cut</span></div>
+      </div>
+      <div class="g-item rv d1">
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=500&q=80&auto=format&fit=crop" alt="Modern style"/>
+        <div class="g-ov"><span>Modern Style</span></div>
+      </div>
+      <div class="g-item rv d2">
+        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=500&q=80&auto=format&fit=crop" alt="Beard art"/>
+        <div class="g-ov"><span>Beard Art</span></div>
+      </div>
+      <div class="g-item rv d1">
+        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=500&q=80&auto=format&fit=crop" alt="Salon interior"/>
+        <div class="g-ov"><span>Our Space</span></div>
+      </div>
+      <div class="g-item rv d2">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=500&q=80&auto=format&fit=crop" alt="Facial care"/>
+        <div class="g-ov"><span>Facial Care</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag rv">Testimonials</span>
+      <h2 class="sec-title rv d1">What Clients Say</h2>
+      <div class="divider c rv d1"></div>
+    </div>
+    <div class="test-grid">
+      <div class="test-card rv">
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p class="test-txt">"Absolutely the best salon in Trichy! The haircut and beard styling were perfect. Very clean and professional environment. Highly recommend the Standard Package!"</p>
+        <div class="test-author"><div class="t-av">R</div><div><div class="t-name">Rajesh Kumar</div><div class="t-role">KK Nagar, Trichy</div></div></div>
+      </div>
+      <div class="test-card rv d1">
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p class="test-txt">"The Premium Package is totally worth it. The hair spa was relaxing and my facial left my skin glowing. Staff is friendly and the place is spotlessly clean!"</p>
+        <div class="test-author"><div class="t-av">S</div><div><div class="t-name">Suresh Babu</div><div class="t-role">Srirangam, Trichy</div></div></div>
+      </div>
+      <div class="test-card rv d2">
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+        <p class="test-txt">"Amazing value for money! Got the Basic Package at ₹199 and the quality rivals salons charging 3× more. Booking via WhatsApp was super easy and convenient."</p>
+        <div class="test-author"><div class="t-av">A</div><div><div class="t-name">Arjun Prakash</div><div class="t-role">Thillai Nagar, Trichy</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-tag rv">Contact</span>
+      <h2 class="sec-title rv d1">Find Us in Trichy</h2>
+      <div class="divider c rv d1"></div>
+    </div>
+    <div class="ct-grid">
+      <div class="ct-cards">
+        <div class="ct-card rv">
+          <div class="ct-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div><h4>Address</h4><p>Opp. LIC Colony, KK Nagar,<br/>Metre Factory Road, Trichy</p></div>
+        </div>
+        <div class="ct-card rv d1">
+          <div class="ct-icon"><i class="fab fa-whatsapp"></i></div>
+          <div><h4>WhatsApp / Call</h4><p><a href="https://wa.me/918608865811">+91 86088 65811</a></p></div>
+        </div>
+        <div class="ct-card rv d2">
+          <div class="ct-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <h4>Working Hours</h4>
+            <div class="hrs">
+              <div class="hr-row"><span>Mon – Sat</span><span>9:00 AM – 9:00 PM</span></div>
+              <div class="hr-row"><span>Sunday</span><span>10:00 AM – 7:00 PM</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rv d1">
+        <div class="map-box">
+          <iframe
+            src="https://maps.google.com/maps?q=10.8005,78.6852&hl=en&z=16&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Afford Salon – KK Nagar, Trichy"
+          ></iframe>
+        </div>
+        <a href="https://maps.app.goo.gl/cAzEyGMKL7yUejCj9" target="_blank" class="map-cta">
+          <i class="fas fa-directions"></i>&nbsp; Get Directions in Google Maps
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="ft-top">
+      <div class="ft-brand">
+        <div class="ft-logo">Afford<em>Salon</em></div>
+        <p class="ft-tag">Premium grooming at honest prices. Your style, perfected — in KK Nagar, Trichy.</p>
+        <div class="ft-social">
+          <a href="https://wa.me/918608865811" target="_blank" class="ft-sb"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="ft-sb"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="ft-sb"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="ft-col">
+        <h4>Quick Links</h4>
+        <ul class="ft-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h4>Our Services</h4>
+        <ul class="ft-links">
+          <li><a href="#services">Haircut</a></li>
+          <li><a href="#services">Beard Styling</a></li>
+          <li><a href="#services">Facial & Cleanup</a></li>
+          <li><a href="#services">Hair Spa</a></li>
+          <li><a href="#packages">Grooming Packages</a></li>
+          <li><a href="#services">Hair Coloring</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2025 Afford Salon. All rights reserved.</span>
+      <span>Made with <i class="fas fa-heart"></i> for Trichy</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
